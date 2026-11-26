@@ -46,7 +46,7 @@ except ImportError:  # Baseline and audit still work without the watcher depende
 
 
 APP_NAME = "Guard"
-__version__ = "2.0.0"
+__version__ = "3.0.0"
 
 # Severity is ordered from least to most serious. Use this map for sorting/filtering.
 INFO, NOTICE, WARNING, CRITICAL = "info", "notice", "warning", "critical"
